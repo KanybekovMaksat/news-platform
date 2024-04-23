@@ -1,0 +1,94 @@
+.register__content{
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 527px;
+  height: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.14);
+  border-radius: 15px;
+  @media screen and (max-width:768px) {
+    width: 320px;
+    padding: 10px;
+  }
+  .register__content_img{
+    margin-bottom: 30px;
+    height: 40px;
+  }
+  .register__content_box{
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    input{
+      width: 55%;
+      padding: 10px;
+      outline-color: #50ABFF;
+      caret-color: #50ABFF;
+      border: 1px solid #E4DFDC;
+      border-radius: 10px;
+    }
+    label{
+      font-family: 'Ubuntu';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+
+      color: #000000;
+    }
+    @media screen and (max-width:768px) {
+      flex-direction: column;
+      align-items: start;
+      margin: 5px 0px;
+      label{
+        margin-bottom: 3px;
+      }
+      input{
+        width: 100%;
+      }
+    }
+  }
+  .register__content_submit{
+    margin-top: 43px;
+    padding: 6px 34px;
+    width: 168px;
+    height: 30px;
+    border: none;
+    background: #50ABFF;
+    border-radius: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    transition: all 0.4s ease-in-out;
+    &:hover{
+      transform: scale(1.1);
+      border: 1px solid #50ABFF;
+      background: white;
+      color: #50ABFF;
+    }
+    @media screen and (max-width:768px){
+      margin-top: 15px;
+    }
+  }
+  .register__content_question{
+    margin-top: 16px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5A5A5A;
+  }
+  .regiter__question_link{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+  }
+}

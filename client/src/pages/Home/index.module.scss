@@ -1,0 +1,40 @@
+.home__content{
+  max-width: 1140px;
+  margin: 50px auto;
+  display: flex;
+  .home__filter{
+    margin-right: 127px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    .home__filter_title{
+      font-family: 'Ubuntu';
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+    }
+    .home__filter_box{
+      display: flex;
+      align-items: center;
+      column-gap: 18px;
+      label{
+        font-family: 'Ubuntu';
+        font-size: 16px;
+        line-height: 18px;
+      }
+    }
+    .home__filter_btn{
+      border: none;
+      max-width: 168px;
+      max-height: 30px;
+      padding: 6px 40px;
+      background: #50ABFF;
+      border-radius: 10px;
+      font-family: 'Ubuntu';
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      color: #FFFFFF;
+    }
+  }
+}

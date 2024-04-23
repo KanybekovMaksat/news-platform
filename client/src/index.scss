@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.page_title{
+  margin: 45px 0px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 55px;
+
+  color: #000000;
+
+}
+.favorite-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.favorite-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.favorite-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.favorite-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 500ms, transform 500ms;
+}

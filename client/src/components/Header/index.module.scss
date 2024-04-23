@@ -1,0 +1,71 @@
+@import "../../index.scss";
+.header{
+  padding: 30px;
+  .header__logo_img{
+    width: 40px;
+    height: 40px;
+  }
+  .header__search_block{
+    position: relative;
+    background-color: #50ABFF;
+    border-radius: 30px;
+    padding: 2px;
+    input{
+      font-size: 16px;
+      font-weight: 700;
+      border: none;
+      background: none;
+      outline: none;
+      float: left;
+      padding: 0;
+      transition: 0.4s;
+      line-height: 40px;
+      width: 0px;
+    }
+    button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      //background: #9DD458;
+      transition: 0.4s;
+      text-decoration: none;
+    }
+    &:hover > input{
+      width: 500px;
+      padding: 0 7px;
+      top: 50px;
+    }
+    &:hover > button{
+      background: #FFFFFF;
+    }
+  }
+  .header__content{
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width:768px) {
+      img{
+        width: 100px;
+      }
+    }
+    .header__content_nav{
+      display: flex;
+      column-gap: 24px;
+
+
+      @media screen and (max-width: 768px) {
+        column-gap: 15px;
+        img{
+          width: 25px;
+        }
+      }
+      button{
+        position: relative;
+        border:none;
+        background:none;
+      }
+    }
+  }
+}

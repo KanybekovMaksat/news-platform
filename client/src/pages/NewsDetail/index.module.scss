@@ -1,0 +1,73 @@
+  .newsdetail__content{
+    max-width: 800px;
+    margin-bottom: 300px;
+    h1{
+      margin-bottom: 15px;
+      font-family: 'Ubuntu';
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 28px;
+      color: #000000;
+    }
+    .newsdetail__description{
+      font-family: 'Ubuntu';
+      font-size: 16px;
+      color: #858080;
+    }
+    .newsdetail__img{
+      margin: 30px 0px;
+      width: 845px;
+      height: 400px;
+      object-fit:cover ;
+    }
+    .newsdetail__text{
+      font-family: 'Ubuntu';
+      font-size: 16px;
+      color: #000;
+    }
+    .comment__content{
+      .comment__content_title{
+        margin-bottom: 40px;
+      }
+      margin-top: 60px;
+    }
+  }
+  .comment__input{
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    input{
+      width: 346px;
+      height: 38px;
+      padding: 7px 18px;
+      border: 1px solid #D9D9D9;
+      border-radius: 10px;
+      outline: 1px solid #50ABFF;
+    }
+    input[type="submit"]{
+      width: 128px;
+      height: 38px;
+      background: #50ABFF;
+      border-radius: 10px;
+      font-family: 'Ubuntu';
+      font-weight: 500;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+  }
+  .comment__view{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h3{
+      font-family: 'Ubuntu';
+      font-weight: 500;
+      font-size: 18px;
+    }
+    p{
+      font-family: 'Ubuntu';
+      font-size: 16px;
+      color: #858080;
+    }
+  }
